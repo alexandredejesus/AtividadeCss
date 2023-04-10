@@ -1,0 +1,76 @@
+
+.principal{
+    /*background-image: url(../img/barbecue-g9abe5ad62_1920.jpg);*/
+   /* text-align: center;
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+    padding-top: 0.0px;*/
+
+
+    /* Estilo para a seção principal */
+
+     position: relative; /* Define a posição relativa para permitir o uso de posicionamento absoluto no conteúdo interno */
+     height: 100vh; /* Define a altura da seção principal para ocupar toda a altura da viewport */
+     background: rgba(14, 8, 8, 0.156) url(../img/2.jpg) center/cover no-repeat fixed; /* Define a imagem de fundo com opacidade de 95% */
+ 
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.titulo{
+    color: rgb(237, 205, 18);
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-decoration:underline;
+}
+.cabecalho{
+    color: rgb(237, 205, 18);
+    text-align: center;
+    margin-top: 0.5px;
+    margin-bottom: 55px;
+    padding-bottom: 50px;
+    padding-top: 0.0px;
+}
+.para1{
+    font-family: 'Courier New, Courier, monospace';
+    font-size: larger;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    color: #eaf20c;
+}
+
+.listaReceita{
+    font-family:monospace;
+    font-size: 15px;
+    font-style: oblique;
+    font-weight: 900;
+    color: #eaf20c;
+}
+
+/* Estilo para a div */
+.container {
+  width: 900px; /* Largura da div */
+  height: 680px; /* Altura da div */
+  border-radius: 10px; /* Define um valor menor de border-radius para cantos levemente arredondados */
+  border: 1.8px solid #808409; /* Define a espessura e a cor da borda */
+  position: absolute; /* Define a posição absoluta para o container */
+  left: 50%; /* Define a posição horizontal do centro */
+  top: 50%; /* Define a posição vertical do centro */
+  transform: translate(-50%, -50%); /* Translada o container em -50% do seu próprio tamanho, tanto na horizontal quanto na vertical */
+  margin: 0 auto; /* Centraliza o container horizontalmente na página */
+  text-align: justify; /* Justifica o texto dentro do container */
+  padding-right: 50px;/*Espaçp na lateral direita do texto*/
+  background-color: rgba(0, 0, 0, 0.737);
+  }
+  .decida{
+    color: rgb(3, 247, 3);
+  }
+  .decida2{
+    color: rgb(28, 168, 238);
+  }
+  
+  
